@@ -5,6 +5,7 @@ gem 'haml', '~> 3.0.0'
 gem "mongoid", "~> 2.0.0.beta.17"
 gem "bson_ext", "~> 1.0.4"
 gem 'devise', '~> 1.1.2'
+gem 'haml-rails' #haml generation for scaffold
 
 group :test, :development do
   gem 'rspec-rails', '~> 2.0.0'
