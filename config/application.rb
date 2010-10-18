@@ -43,7 +43,7 @@ module Rails3MongoidDeviseHamlRspec
     config.generators do |g|
       g.template_engine :haml
       g.test_framework :rspec
-      g.fixture_replacement :factory_girl, :dir => "spec/factories"
+      g.fixture_replacement :fabrication, :dir => "spec/fabricators"
     end
   end
 end
