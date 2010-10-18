@@ -9,6 +9,7 @@ gem 'devise', '~> 1.1.2'
 group :test, :development do
   gem 'rspec-rails', '~> 2.0.0'
   gem 'awesome_print', require: 'ap'
+  gem 'factory_girl_rails'
 end
 
 # Bundle edge Rails instead:
