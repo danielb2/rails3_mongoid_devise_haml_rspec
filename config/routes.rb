@@ -1,4 +1,11 @@
 Rails3MongoidDeviseHamlRspec::Application.routes.draw do
+  devise_for :users
+
+  devise_scope :user do
+    get "signin", :to => "devise/sessions#new"
+    get "signout", :to => "devise/sessions#destroy"
+    get "signup", :to => "devise/registrations#new"
+  end
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
